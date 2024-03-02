@@ -1,5 +1,5 @@
 import { AbstractStateHelper } from "../../abstracts/AbstractStateHelper";
-import { Navbar } from "../../components/SideNavbar";
+import { Navbar } from "../../components/Navbar";
 
 export class NavbarAction extends AbstractStateHelper<Navbar>{
     //private requestActions: Request;
