@@ -48,7 +48,7 @@ export class Home extends Component {
                             <a href="https://www.facebook.com/amirth.kishore.r" target="_blank"><i className='bx bxl-facebook' /></a>
                             <a href="https://www.instagram.com/amirth_kishore/" target="_blank"><i className='bx bxl-instagram' /></a>
                             <a href="https://www.youtube.com/channel/UCqt5cqo9JNlkMTSgfQbuoJQ" target="_blank"><i className='bx bxl-youtube' /></a>
-                            <a href="https://join.skype.com/invite/xAi2j4iSXNXv" target="_blank"><i className='bx bxl-skype' /></a>
+                            <a href="https://join.skype.com/invite/yuPp9ryvOy3i" target="_blank"><i className='bx bxl-skype' /></a>
                         </div>
                         <a href="https://drive.google.com/file/d/1fUozeRPpl2DCVTi45O0EF3vrOBjpcYCe/view?usp=sharing" className="btn-box" target="_blank">Download Resume</a>
                     </div>
