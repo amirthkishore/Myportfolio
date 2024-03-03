@@ -39,7 +39,7 @@ export class Home extends Component {
                             passionate in <span className="text"> software developer</span></h4>
 
                         <div className="img">
-                            <img src=".\images\me.jpg" className="responsive w-75" style={{ borderRadius: "50%" }} />
+                            <img src=".\images\me.jpg" className="responsive" />
                         </div>
 
                         <div className="home-sci">

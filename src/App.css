@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10%;
+  padding: 10px 10%;
   background: #252525;
   display: flex;
   justify-content: space-between;
@@ -98,6 +98,7 @@
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
+  top: 25px;
 }
 
 .home-content {
@@ -136,7 +137,8 @@
   color: rgb(255, 89, 142);
   font-size: 32px;
   /* font-weight: 700; */
-  border: 2px solid transparent; /* Start with a transparent border */
+  border: 2px solid transparent;
+  /* Start with a transparent border */
   animation: rainbow 2s infinite;
 }
 
@@ -263,12 +265,9 @@ a {
 }
 
 .responsive {
-  width: 100%;
+  width: 90%;
   height: auto;
-  border-top-left-radius: 251px;
-  border-top-right-radius: 251px;
-  border-bottom-left-radius: 251px;
-  border-bottom-right-radius: 251px;
+  border-radius: 50%;
 }
 
 /*about*/
@@ -1019,6 +1018,7 @@ a {
     font-weight: 200;
     margin-left: 0px;
     padding: 10px 10px 0 0;
+    margin-top: 10px;
   }
 
   .navbar a::after {
@@ -1050,6 +1050,11 @@ a {
   .logo::after {
     content: "\a";
     white-space: pre;
+  }
+
+  .navbar {
+    display: flex;
+    margin: 0;
   }
 
   .navbar a {
@@ -1103,6 +1108,10 @@ a {
 
   .btn-box:hover {
     box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+  }
+
+  .responsive {
+    margin-left: 25%;
   }
 
   /*about*/
